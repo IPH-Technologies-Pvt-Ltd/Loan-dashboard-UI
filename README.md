@@ -68,3 +68,6 @@ npm install
 ### Run the application:
 ng serve
 
+## Screenshots
+https://github.com/IPH-Technologies-Pvt-Ltd/Loan-dashboard-UI-Angular/assets/127760883/31f27895-ee05-42f5-9dfe-78d4f85e30d9
+
