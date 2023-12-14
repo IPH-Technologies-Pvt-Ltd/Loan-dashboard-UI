@@ -1,4 +1,4 @@
-# LoanDashboardUI
+# LoanDashboardUI-Angular
 
 This Angular-based application provides a user-friendly interface for managing and tracking financial data related to loans. The project includes various components that render different aspects of the loan dashboard.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
