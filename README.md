@@ -1,27 +1,70 @@
-# LoanUi
+# LoanDashboardUI
 
+This Angular-based application provides a user-friendly interface for managing and tracking financial data related to loans. The project includes various components that render different aspects of the loan dashboard.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Project Overview
+Components
+Usage
+Installation
+Getting Started
+Contributing
+License
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Project Overview
 
-## Running unit tests
+The Loan Dashboard App UI is designed to offer a comprehensive view of financial information, including monthly balances, income status, calendar events, and more. The application utilizes Angular components to create a dynamic and responsive user experience.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Components
+### Search Bar (app-search-bar)
+Purpose: Provides a search functionality for the dashboard.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Monthly Balance (app-monthly-balance)
+Purpose: Displays the monthly balance information.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Income Status (app-income-status)
+Purpose: Shows the income status.
+
+
+### This Month (app-this-month) and Last Month (app-last-month)
+Purpose: Display information for the current and last month.
+
+
+### My Experience (app-my-experience)
+Purpose: Shows user's experience related to loans.
+
+
+### Calendar Bar (app-calendar-bar)
+Purpose: Displays a calendar bar for scheduling and tracking events.
+
+
+### Cryptocurrency (app-cryptocurrency)
+Purpose: Provides information about cryptocurrency.
+
+
+### Categories (app-categories)
+Purpose: Displays categories related to financial data.
+
+
+### Profile (app-profile)
+Purpose: Renders user profile information.
+
+## Usage
+### Clone the repository:
+git clone https://github.com/your-username/loan-dashboard-app.git
+
+### Install dependencies:
+npm install
+
+### Run the application:
+ng serve
+
