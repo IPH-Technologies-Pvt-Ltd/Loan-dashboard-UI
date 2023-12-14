@@ -1,0 +1,7 @@
+.form-control::placeholder {
+  color: #a0a0a0;
+}
+
+.form-control:focus::placeholder {
+  color: #dbeaf6;
+}

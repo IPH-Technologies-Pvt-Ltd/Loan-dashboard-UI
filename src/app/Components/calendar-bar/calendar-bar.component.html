@@ -1,0 +1,13 @@
+<div class="card rounded-4 border-0 mb-4" style="background-color: #333331">
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input
+      class="custom-mat-form-field"
+      matInput
+      [matDatepickerFilter]="myFilter"
+      [matDatepicker]="picker"
+    />
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>

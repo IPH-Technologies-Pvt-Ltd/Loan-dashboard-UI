@@ -1,0 +1,73 @@
+<mat-drawer-container class="example-container bg-dark py-3">
+  <mat-drawer
+    mode="side"
+    opened="true"
+    class="example-sidenav"
+    style="text-align: center; background-color: #333331"
+  >
+    <br />
+    <i
+      class="fa-solid fa-user my-5"
+      style="color: green; font-size: xx-large"
+    ></i>
+    <br />
+    <i
+      class="fa-solid fa-house mt-5 mb-3"
+      style="color: white; font-size: x-large"
+    ></i>
+    <br />
+    <i
+      class="fa-solid fa-wallet my-3"
+      style="color: green; font-size: x-large"
+    ></i>
+    <br />
+    <i
+      class="fa-solid fa-percentage my-3"
+      style="color: white; font-size: x-large"
+    ></i>
+    <br />
+    <i
+      class="fa-solid fa-chart-simple my-3"
+      style="color: white; font-size: x-large"
+    ></i>
+    <br />
+    <i
+      class="fa-regular fa-folder-closed mt-3 mb-5"
+      style="color: white; font-size: x-large"
+    ></i>
+    <br />
+    <i
+      class="fa-solid fa-plus mt-5"
+      style="color: white; font-size: x-large"
+    ></i>
+  </mat-drawer>
+  <mat-drawer-content class="p-4">
+    <div class="row">
+      <div class="col-lg-5 col-sm-12 col-md-12">
+        <app-search-bar></app-search-bar>
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-sm-12">
+            <app-monthly-balance></app-monthly-balance>
+            <app-income-status></app-income-status>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <app-this-month></app-this-month>
+            <app-last-month></app-last-month>
+          </div>
+        </div>
+        <div><app-my-experience></app-my-experience></div>
+      </div>
+      <div class="col-lg-3 col-sm-12 col-md-6">
+        <app-calendar-bar></app-calendar-bar>
+        <app-crptocurrency></app-crptocurrency>
+        <app-categories></app-categories>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-md-6 col-12 text-center">
+        <app-profile></app-profile>
+      </div>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<router-outlet></router-outlet>

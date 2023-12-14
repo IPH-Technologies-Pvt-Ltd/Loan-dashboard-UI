@@ -1,0 +1,11 @@
+::ng-deep .example-sidenav {
+  width: 100px;
+  text-align: center;
+  background-color: #333331;
+}
+
+@media (max-width: 767px) {
+  ::ng-deep .example-sidenav {
+    width: 50px;
+  }
+}
